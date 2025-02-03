@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cursive {
+  font-family: "Cedarville Cursive", cursive;
+}
+.Welcome-text {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #9cb2ff 100%);
+  background-blend-mode: normal, screen;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* From Uiverse.io by 3bdel3ziz-T */ 
+/*the style has written with Scss and*/
+/* files on my GitHub👾 check the pio*/
+
+.astrolusion-lunch-component {
+  --count: 0;
+  --days: 31;
+  --hours: 24;
+  --minutes: 60;
+  --seconds: 60;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 0 40px;
+}
+.astrolusion-lunch-component .coupon {
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #654bff;
+  scale: 0.7;
+  transform-origin: bottom center;
+}
+.astrolusion-lunch-component .coupon:hover .content h3 > span {
+  animation: jump 0.15s ease-out 1 normal both;
+}
+.astrolusion-lunch-component .coupon:hover .content h3 > span:nth-of-type(1) {
+  animation-delay: 0.03s;
+}
+.astrolusion-lunch-component .coupon:hover .content h3 > span:nth-of-type(2) {
+  animation-delay: 0.06s;
+}
+.astrolusion-lunch-component .coupon:hover .content h3 > span:nth-of-type(3) {
+  animation-delay: 0.09s;
+}
+.astrolusion-lunch-component .coupon:hover .content h3 > span:nth-of-type(4) {
+  animation-delay: 0.12s;
+}
+.astrolusion-lunch-component .coupon:hover .content h3 > span:nth-of-type(5) {
+  animation-delay: 0.15s;
+}
+.astrolusion-lunch-component .coupon:hover .content h3 > span:nth-of-type(6) {
+  animation-delay: 0.18s;
+}
+.astrolusion-lunch-component .coupon:hover .content h3 > span:nth-of-type(7) {
+  animation-delay: 0.21s;
+}
+.astrolusion-lunch-component .coupon:hover .content h3 > span:nth-of-type(8) {
+  animation-delay: 0.24s;
+}
+.astrolusion-lunch-component .coupon:hover .content h3 > span:nth-of-type(9) {
+  animation-delay: 0.27s;
+}
+.astrolusion-lunch-component .coupon:hover .content h3 > span:nth-of-type(10) {
+  animation-delay: 0.3s;
+}
+.astrolusion-lunch-component .coupon:hover .content h3 > span:nth-of-type(11) {
+  animation-delay: 0.33s;
+}
+.astrolusion-lunch-component .coupon:hover .content h3 > span:nth-of-type(12) {
+  animation-delay: 0.36s;
+}
+.astrolusion-lunch-component .coupon .box {
+  height: 100%;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 1rem;
+}
+.astrolusion-lunch-component .coupon .box span {
+  display: block;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.astrolusion-lunch-component .coupon .diver {
+  display: block;
+  width: 0px;
+  height: 160px;
+  border: 3px dashed transparent;
+  border-right-color: #654bff;
+}
+.astrolusion-lunch-component .coupon .content {
+  padding: 1rem;
+  flex: 1;
+  color: #fff;
+  width: 330px;
+  height: 100%;
+}
+.astrolusion-lunch-component .coupon .content h3 {
+  font-weight: 600;
+  font-size: 2rem;
+  height: 34px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+.astrolusion-lunch-component .coupon .content h3 span.end {
+  width: 30px;
+}
+.astrolusion-lunch-component .coupon .content p {
+  font-weight: 400;
+  font-style: normal;
+  color: #959595;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+.astrolusion-lunch-component .coupon .content p a {
+  font-style: italic;
+  color: #654bff;
+  text-transform: capitalize;
+  word-spacing: 0.03rem;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-underline-offset: 0.05rem;
+  text-decoration-color: #654bff;
+}
+.astrolusion-lunch-component .timer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0rem;
+  overflow: hidden;
+  width: calc(244px + 0rem);
+  text-align: center;
+}
+.astrolusion-lunch-component .timer .colon {
+  width: 8px;
+  color: #fff;
+  font-size: 2rem;
+}
+.astrolusion-lunch-component .timer .item {
+  text-align: center;
+  width: 55px;
+  height: fit-content;
+}
+.astrolusion-lunch-component .timer .item .days,
+.astrolusion-lunch-component .timer .item .hours,
+.astrolusion-lunch-component .timer .item .minutes,
+.astrolusion-lunch-component .timer .item .seconds {
+  text-align: center;
+  width: 55px;
+  overflow: hidden;
+  height: 40px;
+}
+.astrolusion-lunch-component .timer .item .day,
+.astrolusion-lunch-component .timer .item .hour,
+.astrolusion-lunch-component .timer .item .min,
+.astrolusion-lunch-component .timer .item .sec {
+  text-align: center;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.astrolusion-lunch-component .timer .item .day span,
+.astrolusion-lunch-component .timer .item .hour span,
+.astrolusion-lunch-component .timer .item .min span,
+.astrolusion-lunch-component .timer .item .sec span {
+  height: 40px;
+  color: #fff;
+  font-size: 2rem;
+  display: inline-block;
+}
+.astrolusion-lunch-component .timer .item .day {
+  --count: var(--days);
+  animation: slide calc(var(--count) * 86400s) ease-out 0s 31 normal both;
+}
+.astrolusion-lunch-component .timer .item .hour {
+  --count: var(--hours);
+  animation: slide calc(var(--count) * 3600s) steps(var(--count)) 0s 24 normal
+    both;
+}
+.astrolusion-lunch-component .timer .item .min {
+  --count: var(--minutes);
+  animation: slide calc(var(--count) * 60s) steps(var(--count)) 0s 60 normal
+    both;
+}
+.astrolusion-lunch-component .timer .item .sec {
+  --count: var(--seconds);
+  animation: slide calc(var(--count) * 1s) steps(var(--count)) 0s 60 normal both;
+}
+.astrolusion-lunch-component .timer .item p {
+  text-align: center;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(calc(-40px * var(--count)));
+  }
+  99.6% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(calc(-40px * var(--count)));
+  }
+}
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+    scale: 1;
+  }
+  50% {
+    transform: translateY(-10px);
+    scale: 1.1;
+  }
+  100% {
+    transform: translateY(0);
+    scale: 1;
+  }
+}
+
+.shrink {
+   transition: transform 0.2s, filter 0.2s; /* Animation */
+}
+
+.shrink:hover {
+  transform: scale(1.1);
+  filter: saturate(150%);
+}
+.Welcome-box {
+  isolation: isolate;
+  overflow: hidden;
+  align-items: center;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  border-radius: 32px;
+  box-shadow: inset 0 -7px 11px #a48fff1f;
+  display: flex;
+
+  position: relative;
+  width: -moz-max-content;
+  width: max-content;
+  transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) box-shadow;
+}
+
+.button-primary {
+  background: linear-gradient(
+      180deg,
+      rgba(60, 8, 126, 0) 0%,
+      rgba(60, 8, 126, 0.32) 100%
+    ),
+    rgba(113, 47, 255, 0.12);
+  box-shadow: inset 0 0 12px #bf97ff3d;
+}
+.button-primary:hover {
+  background: linear-gradient(
+      180deg,
+      rgba(60, 8, 126, 0) 0%,
+      rgba(60, 8, 126, 0.42) 100%
+    ),
+    rgba(113, 47, 255, 0.24);
+  box-shadow: inset 0 0 12px #bf97ff70;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hidden {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
