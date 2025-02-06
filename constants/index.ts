@@ -10,66 +10,6 @@ import { FaXTwitter, FaTelegram, FaCoins } from "react-icons/fa6";
 
 export const SKILL_DATA = [
   {
-    skill_name: "HTML",
-    image: "html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "CSS",
-    image: "css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Framer Motion",
-    image: "framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "Stripe",
     image: "stripe.png",
     width: 80,

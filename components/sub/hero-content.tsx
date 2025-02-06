@@ -48,7 +48,7 @@ export const HeroContent = () => {
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
           Astrolusion, the most illusionary astronaut in history, is gearing up to be the FIRST to land on Mars! 🪐✨
-          Forget one small step—this is a giant mind-blowing leap for all Austrolusians! We are about to journey into space!🌌
+          Forget one small step—this is a giant mind-blowing leap for all Astrolusians! We are about to journey into space!🌌
         </motion.p>
 
         <motion.a
